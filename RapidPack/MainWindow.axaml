@@ -36,5 +36,34 @@
 
         <Rectangle Height="1" Fill="LightGray"/>
 
+        <Button x:Name="PrzyciskWycen"
+                Content="Wyceń"
+                FontSize="18"
+                FontWeight="Bold"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                Padding="0,12"
+                Click="PrzyciskWycen_Kliknieto"/>
+
+        <Border x:Name="PanelWyniku"
+                IsVisible="False"
+                Background="#F0F7FF"
+                CornerRadius="8"
+                Padding="16">
+            <TextBlock x:Name="TekstWyniku"
+                       TextWrapping="Wrap"
+                       FontSize="14"/>
+        </Border>
+
+        <Border x:Name="PanelBledu"
+                IsVisible="False"
+                Background="#FFF0F0"
+                CornerRadius="8"
+                Padding="16">
+            <TextBlock x:Name="TekstBledu"
+                       Foreground="Red"
+                       TextWrapping="Wrap"/>
+        </Border>
+
     </StackPanel>
 </Window>
