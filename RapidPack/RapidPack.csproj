@@ -18,4 +18,10 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Calculator.cs">
+        <DependentUpon>MainWindow.axaml.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
 </Project>
