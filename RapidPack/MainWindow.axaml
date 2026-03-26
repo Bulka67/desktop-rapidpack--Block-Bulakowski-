@@ -4,6 +4,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RapidPack.MainWindow"
-        Title="RapidPack">
-    Welcome to Avalonia!
+        Title="RapidPack – Wycena Przesyłek"
+        Width="420" Height="600"
+        CanResize="False">
+
+    <StackPanel Margin="20" Spacing="12">
+
+        <TextBlock Text="📦 RapidPack" FontSize="24" FontWeight="Bold"/>
+        <TextBlock Text="Wycena przesyłki" FontSize="14" Foreground="Gray"/>
+
+        <Rectangle Height="1" Fill="LightGray"/>
+
+    </StackPanel>
 </Window>
