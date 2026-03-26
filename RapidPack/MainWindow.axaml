@@ -15,5 +15,26 @@
 
         <Rectangle Height="1" Fill="LightGray"/>
 
+        <TextBlock Text="Waga (kg):"/>
+        <TextBox x:Name="PoleTekstoweWaga" Watermark="np. 5"/>
+
+        <TextBlock Text="Wymiary (cm):"/>
+        <Grid ColumnDefinitions="*,8,*,8,*">
+            <TextBox Grid.Column="0" x:Name="PoleTekstoweWysokosc"  Watermark="Wysokość"/>
+            <TextBox Grid.Column="2" x:Name="PoleTekstoweStawanosc" Watermark="Szerokość"/>
+            <TextBox Grid.Column="4" x:Name="PoleTekstoweGleBokosc" Watermark="Głębokość"/>
+        </Grid>
+
+        <TextBlock Text="Typ przesyłki:"/>
+        <ComboBox x:Name="ListaTypowPrzesylki" Width="200" HorizontalAlignment="Left">
+            <ComboBoxItem Content="Standardowa" IsSelected="True"/>
+            <ComboBoxItem Content="Ostrożnie"/>
+            <ComboBoxItem Content="Paleta"/>
+        </ComboBox>
+
+        <CheckBox x:Name="CheckboxEkspres" Content="Ekspres (+15 zł)"/>
+
+        <Rectangle Height="1" Fill="LightGray"/>
+
     </StackPanel>
 </Window>
