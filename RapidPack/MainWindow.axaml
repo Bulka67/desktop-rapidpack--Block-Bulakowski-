@@ -52,6 +52,7 @@
                 Padding="16">
             <TextBlock x:Name="TekstWyniku"
                        TextWrapping="Wrap"
+                       Foreground="Blue"
                        FontSize="14"/>
         </Border>
 
