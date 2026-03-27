@@ -9,7 +9,7 @@ public class MainWindowTests
     private const double NormalnaWaga  = 10;
     private const double MalyWymiar   = 30;
 
-    [Fact]
+    [Fact] 
     public void ZaduzoKilogramow_RzucaBlad()
     {
         double zaduzoKg = 35;
